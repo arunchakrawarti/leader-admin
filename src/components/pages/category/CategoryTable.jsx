@@ -78,36 +78,29 @@ const CategoryTable = () => {
     render: (value) =>
       new Date(value).toLocaleDateString(),
   },
-];
-  const actions = [
+];const actions = [
     ({ row }) => (
       <Button
-        variant="secondary"
-        className="!w-9 !h-9 !p-0 rounded-lg bg-blue-100 hover:bg-blue-200"
-        title="View"
-      >
-        <i className="ri-eye-line text-lg text-blue-600"></i>
-      </Button>
+  variant="secondary"
+  icon="eye-line"
+  title="View"
+/>
     ),
 
     ({ row }) => (
       <Button
-        variant="success"
-        className="!w-9 !h-9 !p-0 rounded-lg bg-green-100 hover:bg-green-200"
-        title="Edit"
-      >
-        <i className="ri-pencil-line text-lg text-green-600"></i>
-      </Button>
+  variant="success"
+  icon="pencil-line"
+  title="Edit"
+/>
     ),
 
     ({ row }) => (
       <Button
-        variant="danger"
-        className="!w-9 !h-9 !p-0 rounded-lg bg-red-100 hover:bg-red-200 border-none"
-        title="Delete"
-      >
-        <i className="ri-delete-bin-6-line text-lg text-red-500"></i>
-      </Button>
+  variant="danger"
+  icon="delete-bin-6-line"
+  title="Delete"
+/>
     ),
   ];
 

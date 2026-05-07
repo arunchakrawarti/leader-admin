@@ -5,9 +5,9 @@ const variantClasses = {
   default: "bg-gray-100 text-gray-500",
   outline: "bg-white text-blue-600 hover:text-blue-700 border border-gray-300",
   primary: "text-white bg-blue-600 hover:bg-blue-700",
-  success: "bg-green-500 text-white",
-  danger: "bg-white text-red-500 border border-red-400",
-  secondary: "text-blue-500",
+  success: "!w-9 !h-9 !p-0 rounded-lg bg-green-100 hover:bg-green-200 text-green-500 text-lg",
+  danger: "!w-9 !h-9 !p-0 rounded-lg bg-red-100 hover:bg-red-200 border-none text-red-500 text-lg",
+  secondary: "!w-9 !h-9 !p-0 rounded-lg bg-blue-100 hover:bg-blue-200 text-blue-500 text-lg",
   white: "bg-white",
   black:"bg-gray-700 hover:bg-gray-300 text-white",
   gradient: " bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 text-white font-bold "
