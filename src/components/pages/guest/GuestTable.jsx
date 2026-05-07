@@ -121,7 +121,9 @@ const GuestTable = () => {
     {
       label: "Created At",
       key: "createdAt",
-      render: (value) => <span>{new Date(value).toLocaleDateString()}</span>,
+      render: (value) => (
+        <span>{new Date(value).toLocaleDateString("en-GB")}</span>
+      ),
     },
   ];
 
