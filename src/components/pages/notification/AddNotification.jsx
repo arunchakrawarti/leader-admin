@@ -9,7 +9,7 @@ const AddNotification = () => {
       <div className="bg-white border border-gray-200 rounded-2xl p-6">
         <div className="mb-6">
 
-          <h2 className="text-2xl font-semibold text-gray-900">
+          <h2 className="text-2xl font-semibold text-gray-900 font-montserrat">
             Add Notification
           </h2>
 

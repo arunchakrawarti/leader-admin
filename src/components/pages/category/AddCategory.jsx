@@ -9,7 +9,7 @@ const AddCategory = () => {
     <div className="space-y-6">
 
       <div className="bg-white border border-gray-200 rounded-2xl p-6">
-        <h1 className="font-inter text-2xl text-black font-semibold mb-6">
+        <h1 className="font-montserrat text-2xl text-black font-semibold mb-6">
           Add Category
         </h1>
 

@@ -34,11 +34,11 @@ const AddTemplate = () => {
 
       <div className="bg-white border border-gray-200 rounded-3xl p-6 shadow-sm">
         <div className="mb-6">
-          <h2 className="text-xl font-semibold text-gray-900">
+          <h2 className="text-xl font-semibold text-gray-900 font-montserrat">
             Template Information
           </h2>
 
-          <p className="text-sm text-gray-500 mt-1">
+          <p className="text-sm text-gray-500 font-montserrat mt-1">
             Basic details about your template
           </p>
         </div>
@@ -129,16 +129,14 @@ const AddTemplate = () => {
           />
         </div>
       </div>
-
-      {/* LAYERS */}
       <div className="space-y-6">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-2xl font-semibold text-gray-900">
+            <h2 className="text-2xl font-semibold text-gray-900 font-montserrat">
               Template Layers
             </h2>
 
-            <p className="text-sm text-gray-500 mt-1">
+            <p className="text-sm text-gray-500 font-montserrat mt-1">
               Add multiple text or image layers
             </p>
           </div>

@@ -8,13 +8,13 @@ const AddGuest = () => {
   return (
     <div className="bg-white border border-gray-200 rounded-2xl p-6 space-y-6">
       <div>
-        <h2 className="text-2xl font-semibold text-gray-900">
+        <h2 className="text-2xl font-semibold text-gray-900 font-montserrat">
           Add Guest
         </h2>
       </div>
       <div>
 
-        <h3 className="text-lg font-semibold text-gray-800 mb-4">
+        <h3 className="text-lg font-semibold font-montserrat text-gray-800 mb-4">
           Guest Information
         </h3>
 
@@ -63,7 +63,7 @@ const AddGuest = () => {
       </div>
       <div>
 
-        <h3 className="text-lg font-semibold text-gray-800 mb-4">
+        <h3 className="text-lg font-semibold font-montserrat text-gray-800 mb-4">
           Social Media Links
         </h3>
 

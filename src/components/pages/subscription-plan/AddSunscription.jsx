@@ -9,7 +9,7 @@ const AddSunscription = () => {
     <div className="space-y-6">
       
       <div className="bg-white border border-gray-200 rounded-2xl p-6">
-        <h1 className="text-2xl mb-5 text-black font-semibold font-inter">Add Subscription</h1>
+        <h1 className="text-2xl mb-5 text-black font-semibold font-montserrat">Add Subscription</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <Input
             label="Plan Name"
