@@ -38,7 +38,7 @@ export default function Header({ onMenuClick }) {
             <i className="ri-menu-2-line text-xl" />
           </Button>
 
-          <h1 className="text-2xl font-semibold font-inter">Leader</h1>
+          <h1 className="text-2xl font-semibold font-inter text-black">Leader</h1>
 
         </div>
         <div className="flex items-center gap-4">

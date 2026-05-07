@@ -8,7 +8,7 @@ const Addbanner = () => {
     <div className="space-y-6">
       <div className="bg-white border border-gray-200 rounded-2xl p-6">
 
-        <h1 className="font-inter text-2xl font-semibold mb-3">
+        <h1 className="font-montserrat text-2xl font-semibold mb-3 text-black">
           Add Banner
         </h1>
 

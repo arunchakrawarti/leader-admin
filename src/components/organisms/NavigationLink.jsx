@@ -31,7 +31,7 @@ const NavigationLink = ({ title, icon, link, children = [] }) => {
           <i
             className={`${icon} text-lg transition-transform duration-300 group-hover:scale-110`}
           ></i>
-          <span className="text-sm font-medium truncate">
+          <span className="text-sm font-medium font-montserrat truncate">
             {title}
           </span>
         </div>

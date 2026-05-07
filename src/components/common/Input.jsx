@@ -14,34 +14,29 @@ const Input = ({
 }) => {
   return (
     <div className="flex w-full flex-col gap-1">
-
-      {/* Label */}
       {label && (
-        <label className="font-inter font-semibold mb-1 text-[12px] text-[var(--color-gray-500)] uppercase tracking-wider">
+        <label className="font-inter font-semibold mb-1 text-[12px] text-black uppercase tracking-wider">
           {label}
         </label>
       )}
-
-      {/* Textarea */}
       {rest?.type === "textarea" ? (
         <div
           className={clsx(
-            "flex w-full rounded md:rounded-md px-3 py-2 border border-gray-300 bg-[var(--color-white)] min-h-36 max-h-56",
+            "flex w-full font-montserrat rounded md:rounded-md  px-3 py-2 border border-gray-300 bg-white min-h-36 max-h-56 text-black",
             error && "border-red-400 ring-2 ring-red-300",
             className
           )}
         >
           <textarea
-            className="w-full outline-none text-sm text-[var(--foreground)] bg-transparent resize-none"
+            className="w-full outline-none text-sm text-black font-montserrat resize-none"
             {...rest}
           />
         </div>
       ) : rest?.type === "select" ? (
 
-        /* Select */
         <div
           className={clsx(
-            "flex w-full items-center rounded md:rounded-md px-3 py-1 border border-gray-300 bg-[var(--color-white)]",
+            "flex w-full items-center font-montserrat text-black rounded md:rounded-md px-3 py-1 border border-gray-300 bg-white",
             error && "border-red-400 ring-2 ring-red-300",
             className
           )}
@@ -49,7 +44,7 @@ const Input = ({
           <select
             defaultValue=""
             {...rest}
-            className="py-3 md:py-2.5 w-full text-sm outline-none bg-[var(--color-white)] text-[var(--foreground)]"
+            className="py-3 md:py-2.5 w-full text-sm outline-none font-montserrat bg-white text-black"
           >
             {rest?.placeholder && (
               <option value="" disabled>
@@ -74,14 +69,14 @@ const Input = ({
         /* Input */
         <div
           className={clsx(
-            "flex w-full items-center rounded md:rounded-md px-3 py-1 border border-gray-300 bg-[var(--color-white)]",
+            "flex w-full items-center text-black rounded md:rounded-md px-3 py-1 border font-montserrat border-gray-300 bg-white",
             error && "border-red-400 ring-2 ring-red-300",
             className
           )}
         >
           <input
             {...rest}
-            className="py-3 md:py-2.5 w-full text-sm outline-none bg-transparent text-[var(--foreground)]"
+            className="py-3 md:py-2.5 w-full text-sm outline-none font-montserrat bg-transparent text-black"
           />
         </div>
       )}

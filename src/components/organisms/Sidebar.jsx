@@ -33,7 +33,7 @@ const SideBar = ({ isMobile = false, isOpen = true, onClose }) => {
             </div>
 
             <div>
-              <h1 className="text-md font-semibold font-inter">
+              <h1 className="text-md font-semibold font-montserrat">
                 Admin
               </h1>
 

@@ -55,9 +55,9 @@ const Maindashboard = () => {
           >
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-sm text-gray-500">{card.title}</p>
+                <p className="text-sm text-gray-500 font-inter">{card.title}</p>
 
-                <h2 className="text-3xl font-bold text-gray-900 mt-2">
+                <h2 className="text-3xl font-bold text-gray-600 font-inter mt-2">
                   {card.value}
                 </h2>
               </div>

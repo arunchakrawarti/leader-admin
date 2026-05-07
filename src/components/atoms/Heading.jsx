@@ -26,12 +26,12 @@ const Heading = ({
           </Button>
         )}
 
-        <h1 className="text-2xl font-inter font-semibold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+        <h1 className="text-2xl font-montserrat font-semibold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
           {title}
         </h1>
 
         {paragraph && (
-          <p className="text-sm font-inter mt-1 bg-gradient-to-r from-gray-500 to-gray-400 bg-clip-text text-transparent">
+          <p className="text-sm font-montserrat mt-1 text-gray-500 bg-clip-text">
             {paragraph}
           </p>
         )}
@@ -49,7 +49,7 @@ const Heading = ({
             <Button
               key={i}
               onClick={() => router.push(btn.route)}
-              className={`flex items-center gap-1.5 px-6 capitalize! rounded md:rounded-lg lg:rounded-full text-sm font-medium transition relative overflow-hidden text-white
+              className={`flex items-center font-montserrat gap-1.5 px-6 capitalize! rounded md:rounded-lg lg:rounded-full text-sm font-medium transition relative overflow-hidden text-white
                ${btn.variant === "gradient"
                   ? " bg-gradient-to-br from-indigo-600  to-purple-600"
                   : "bg-gray-100 text-gray-700"

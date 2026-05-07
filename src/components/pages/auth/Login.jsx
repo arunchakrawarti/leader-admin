@@ -8,9 +8,9 @@ const Login = () => {
     <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
       <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8">
         <div className="mb-8 text-center">
-          <h1 className="text-3xl font-bold text-gray-800">Login</h1>
+          <h1 className="text-3xl font-bold text-gray-800 font-inter">Login</h1>
 
-          <p className="text-sm text-gray-500 mt-2">
+          <p className="text-sm text-gray-500 mt-2 font-inter">
             Welcome back! Please login to continue
           </p>
         </div>

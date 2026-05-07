@@ -9,23 +9,16 @@ const AddCategory = () => {
     <div className="space-y-6">
 
       <div className="bg-white border border-gray-200 rounded-2xl p-6">
-
-        {/* Heading */}
-        <h1 className="font-inter text-2xl font-semibold mb-6">
+        <h1 className="font-inter text-2xl text-black font-semibold mb-6">
           Add Category
         </h1>
 
-        {/* Form */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-
-          {/* Title */}
           <Input
             label="Title"
             type="text"
             placeholder="Enter category title"
           />
-
-          {/* Parent Category */}
           <Input
             label="Parent Category"
             type="select"
@@ -38,7 +31,7 @@ const AddCategory = () => {
             ]}
           />
 
-          {/* Image URL */}
+         
           <Input
             label="Image URL"
             type="text"
@@ -46,8 +39,6 @@ const AddCategory = () => {
           />
 
         </div>
-
-        {/* Description */}
         <div className="mt-5">
           <Input
             label="Description"

@@ -39,8 +39,6 @@ const colorMap = {
     ["new arrival"]: "bg-yellow-400 text-white border-yellow-400",
 };
 
-
-// Random fallback colors (for unmatched text)
 const randomColors = [
     "bg-pink-100 text-pink-700 border border-pink-200",
     "bg-purple-100 text-purple-700 border border-purple-200",
@@ -62,7 +60,7 @@ export const Badge = ({ text, customStyle }) => {
     return (
         <span
             className={clsx(
-                "inline-flex items-center rounded-full px-3 py-1 text-xs font-medium transition-all duration-200 select-none",
+                "inline-flex items-center font-montserrat rounded-full px-3 py-1 text-xs font-medium transition-all duration-200 select-none",
                 style,
                 customStyle,
             )}
