@@ -65,6 +65,12 @@ const SubscriptionPlanTable = () => {
   ];
   const columns = [
     {
+    label: "S.No",
+    key: "serial",
+    render: (_, row, index) => index + 1,
+  },
+
+    {
       label: "Image",
       key: "images",
       render: (value, row) => (
