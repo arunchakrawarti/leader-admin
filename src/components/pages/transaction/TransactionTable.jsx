@@ -104,7 +104,7 @@ const TransactionTable = () => {
     {
       label: "Updated At",
       key: "updatedAt",
-      render: (value) => <span>{new Date(value).toLocaleDateString()}</span>,
+      render: (value) => <span> {new Date(value).toLocaleDateString("en-GB")}</span>,
     },
   ];
 
