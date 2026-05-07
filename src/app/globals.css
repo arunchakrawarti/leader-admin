@@ -24,3 +24,88 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.font-inter {
+  font-family: var(--font-inter);
+}
+
+.font-montserrat {
+  font-family: var(--font-montserrat);
+}
+
+.font-poppins {
+  font-family: var(--font-poppins);
+}
+
+
+.scrollbar-hidden {
+  scrollbar-width: none;
+}
+/* ✅ Chrome, Edge, Safari (Webkit browsers) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* ✅ Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* ✅ Optional (IE / old Edge) */
+body {
+  -ms-overflow-style: none;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #ad46ff 0%, #f6339a 100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.red-gradient {
+  background: linear-gradient(96.18deg,
+      #C83300 -2.22%,
+      #E35545 48.89%,
+      #FFA98B 100%);
+  transition: all 0.3s ease-in-out;
+}
+
+
+.bg-gradientLight {
+  background: linear-gradient(180deg,
+      #b67cf8e1 0%,
+      hwb(8 51% 43% / 0.685) 100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.bg-gradientBlue {
+  background: linear-gradient(
+    160deg,
+    rgb(64, 83, 135) 0%,
+    rgb(29, 78, 216) 40%,
+    rgb(37, 99, 235) 70%,
+    rgb(59, 130, 246) 100%
+  );
+  transition: all 0.3s ease-in-out;
+}
+
+.bg-circle {
+  background: linear-gradient(
+    160deg,
+    rgba(64, 83, 135, 0.04) 0%,
+    rgba(29, 79, 216, 0.155) 40%,
+    rgba(37, 100, 235, 0.138) 70%,
+    rgba(59, 131, 246, 0.1) 100%
+  );
+  transition: all 0.3s ease-in-out;
+}
+
+.bg-sidebar-gradient {
+  background: linear-gradient(180deg, #1e1a4d 0%, #59168b 100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.bg-sidebar-active-gradient {
+  background: linear-gradient(90deg, #7932f5 0%, #fa3095 100%);
+  transition: all 0.3s ease-in-out;
+}
