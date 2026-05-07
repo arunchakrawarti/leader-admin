@@ -4,21 +4,22 @@ export const SideBarData = [
     icon: "ri-dashboard-line",
     link: "/",
   },
+
   {
     title: "Banner",
-    icon: "ri-dashboard-line",
+    icon: "ri-image-2-line",
     link: "/banner",
   },
 
   {
     title: "Category",
-    icon: "ri-line-chart-line",
+    icon: "ri-folder-2-line",
     link: "/category",
   },
 
   {
     title: "Template",
-    icon: "ri-flask-line",
+    icon: "ri-layout-4-line",
     link: "/template",
   },
 
@@ -30,31 +31,31 @@ export const SideBarData = [
 
   {
     title: "Subscription Plan",
-    icon: "ri-wallet-3-line",
+    icon: "ri-vip-crown-2-line",
     link: "/subscription-plan",
   },
 
   {
     title: "Subscription Purchase",
-    icon: "ri-shopping-cart-line",
+    icon: "ri-shopping-bag-3-line",
     link: "/subscription-purchase",
   },
 
   {
     title: "Guest",
-    icon: "ri-user-3-line",
+    icon: "ri-team-line",
     link: "/guest",
   },
 
   {
     title: "Story",
-    icon: "ri-user-forbid-line",
+    icon: "ri-book-open-line",
     link: "/story",
   },
 
   {
     title: "Transaction",
-    icon: "ri-settings-3-line",
-    link: "transaction",
+    icon: "ri-exchange-dollar-line",
+    link: "/transaction",
   },
 ];

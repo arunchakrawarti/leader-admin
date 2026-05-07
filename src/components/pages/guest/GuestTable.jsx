@@ -62,17 +62,19 @@ const GuestTable = () => {
       label: "Guest",
       key: "image",
       render: (value, row) => (
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 min-w-[200px]">
           <img
             src={value}
             alt={row.name}
-            className="w-14 h-14 rounded-full object-cover"
+            className="w-14 h-14 rounded-full object-cover flex-shrink-0"
           />
 
-          <div>
-            <h3 className="font-semibold text-gray-900">{row.name}</h3>
+          <div className="min-w-0">
+            <h3 className="font-semibold text-gray-900 truncate">{row.name}</h3>
 
-            <p className="text-sm text-gray-500 ">{row.designation}</p>
+            <p className="text-sm text-gray-500 truncate max-w-[160px]">
+              {row.designation}
+            </p>
           </div>
         </div>
       ),

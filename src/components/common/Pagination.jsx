@@ -12,7 +12,6 @@ export default function Pagination({
     const searchParams = useSearchParams();
     const router = useRouter();
     const pathname = usePathname();
-    //  memoize the value so it doesn't break the dependency array
     const pageNo = useMemo(() => {
         return searchParams.get("page");
     }, [searchParams]);
@@ -26,9 +25,6 @@ export default function Pagination({
         if (page < 1 || page > totalPages) return;
         setCurrentPage(page);
         onChange?.(page);
-
-
-        // Update the URL with the new page number
         const params = new URLSearchParams(searchParams);
         params.set("page", page);
         router.replace(`${pathname}?${params.toString()}`);

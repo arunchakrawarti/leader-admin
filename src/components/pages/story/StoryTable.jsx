@@ -49,30 +49,35 @@ const StoryTable = () => {
   ];
   const columns = [
     {
-      label: "Media",
-      key: "mediaUrl",
-      render: (value, row) => (
-        <div className="flex items-center gap-3">
-
-          <img
-            src={value}
-            alt={row.title}
-            className="w-16 h-16 rounded-xl object-cover border border-gray-200"
-          />
-
-          <div>
-            <h3 className="font-semibold text-gray-900">
-              {row.title}
-            </h3>
-
-            <p className="text-sm text-gray-500 capitalize">
-              {row.mediaType}
-            </p>
-          </div>
-
-        </div>
-      ),
+      label: "S.No",
+      key: "serial",
+      render: (_, row, index) => index + 1,
     },
+   {
+  label: "Media",
+  key: "mediaUrl",
+  render: (value, row) => (
+    <div className="flex items-center gap-3 min-w-[200px]">
+
+      <img
+        src={value}
+        alt={row.title}
+        className="w-14 h-14 rounded-xl object-cover border border-gray-200 shrink-0"
+      />
+
+      <div className="min-w-0">
+        <h3 className="font-semibold text-gray-900 max-w-[160px] truncate">
+          {row.title}
+        </h3>
+
+        <p className="text-sm text-gray-500 capitalize">
+          {row.mediaType}
+        </p>
+      </div>
+
+    </div>
+  ),
+},
 
     {
       label: "Media Type",
@@ -100,7 +105,7 @@ const StoryTable = () => {
       label: "User ID",
       key: "userId",
       render: (value) => (
-        <p className="max-w-[180px] truncate">
+        <p>
           {value}
         </p>
       ),

@@ -86,7 +86,7 @@ const BasicTable = ({
       </table>
 
       {pagination && (
-        <div className="p-4 border-t border-gray-200">
+        <div className="p-4 border-t flex justify-end border-gray-200">
           <Pagination pageSize={pageSize} total={total} />
         </div>
       )}
